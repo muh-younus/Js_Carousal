@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corousal in Javascript</title>
+
+    <!-- Css-Link -->
+
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Boxicon-icon -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+     <!-- Script-Link -->
+     <script src="script.js"></script>
+</head>
+<body>
+
+    <section class="main" aria-label="new"> 
+
+        <div class="carousal">
+
+            <div class="button">
+                <button class="left" onclick="goNext()"><i class="fa-solid fa-angles-left"></i></button>
+                <button class="right" onclick="goPrev()"><i class="fa-solid fa-angles-right"></i></button>
+            </div>
+
+            <div class="list d-flex ">
+                
+                    <img style="width: 100vw!important" src="./flower1.jpg" class="imgSlide" alt="">
+                
+
+                
+
+                    <img style="width: 100vw" src="./flower2.avif" class="imgSlide" alt="">
+
+              
+
+                
+
+                    <img style="width:100vw" src="./flower3.webp" class="imgSlide" alt="">
+                
+            </div>
+        </div>
+
+    </section>
+    
+</body>
+</html>
